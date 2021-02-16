@@ -9,6 +9,12 @@
 .Business .image-container {
   height: 16.66rem;
   margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 11px 4px #8B8B8B;
+  transition: transform 0.35s ease-in-out;
+}
+.Business .image-container:hover {
+  transform: scale(1.05);
 }
 
 .Business h2 {
